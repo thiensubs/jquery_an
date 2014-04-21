@@ -12,7 +12,7 @@
      "Lam Dong",
      "Quang Binh"
      ];
-     $( "#inputDate" ).datepicker();
+     $( "#inputDate" ).datepicker({ dateFormat: "dd M,yy" });
      $( "#born" ).autocomplete({
       source: availableTags,
       autoFocus: true
