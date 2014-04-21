@@ -1,0 +1,38 @@
+#contain
+{
+  border-color: red;
+
+}
+#form_info
+{
+  margin: 60px auto 30px;
+  padding: 15px;
+  border: 2px solid blue;
+  border-radius: 2px;
+
+}
+#form_info h1
+{
+  border-bottom: 2px solid red;
+}
+.error
+{
+  color: red;
+}
+#err_check
+{
+  display: none;
+}
+#progressbar .ui-progressbar-value {
+  background-color: #ccc;
+}
+.ui-progressbar {
+  position: relative;
+}
+.progress-label {
+  position: absolute;
+  left: 48%;
+  top: 4px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #fff;
+}
